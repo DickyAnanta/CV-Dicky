@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.foto-diri {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.nama {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.sub-nama {
+    line-height: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.sosmed {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.alamat {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.alamat p {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email {
+    line-height: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.email .titik {
+    margin-top: 5px;
+}
+
+.email a {
+    text-underline-offset: 7px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: black;
+    font-weight: 450;
+}
+
+.motivasi {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.motivasi p {
+    font-size: 25px;
+    font-weight: 450;
+}
+
+.kemampuan {
+    margin-top: 100px;
+}
+
+.judul p {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.judul span {
+    margin-left: 20px;
+    font-weight: 499;
+    font-size: 22px;
+    line-height: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.content .kiri span {
+    font-weight: 499;
+    line-height: 50px;
+    font-size: 18px;
+    margin-right: 500px;
+}
+
+.content .kanan span {
+    font-weight: 499;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.p-1-kiri p {
+    margin-left: 30px;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.p-posisi {
+    line-height: 5px;
+    margin-left: 105px;
+    font-size: 18px;
+}
+
+.p-1-kanan img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.sekolah-1 span {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.s-1-tengah {
+    margin-left: 270px;
+}
+
+.s-jurusan {
+    line-height: 1px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.s-1-kanan img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 280px;
+}
+
+.s-2-tengah {
+    margin-left: 190px;
+}
+
+.s-jurusan {
+    line-height: 1px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.s-2-kanan img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 265px;
+}
