@@ -169,3 +169,158 @@
     justify-content: space-between;
     margin-left: 265px;
 }
+
+@media screen and (max-width: 800px) {
+    .foto-diri {
+        margin-top: 100px;
+    }
+    .foto-diri img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .nama p {
+        font-size: 30px;
+    }
+
+    .sub-nama p {
+        line-height: 5px;
+        font-size: 20px;
+    }
+
+    .sosmed img {
+        width: 35px;
+        height: 35px;
+    }
+    .sosmed {
+        margin-top: 70px;
+    }
+    .alamat img {
+        width: 13px;
+        height: 20px;
+    }
+
+    .alamat p {
+        font-size: 14px;
+    }
+
+    .alamat {
+        margin-top: 70px;
+    }
+
+    .email {
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+
+    .email .pesan img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .motivasi {
+        margin-top: 100px;
+    }
+    .motivasi p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .judul p {
+        font-size: 30px;
+    }
+
+    .judul span {
+        font-size: 16px;
+    }
+
+    .content .kiri span {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .content .kanan span {
+        font-size: 16px;
+    }
+
+    .content {
+        gap: 0;
+        display: inline-block;
+        margin-right: 0;
+    }
+
+    .p-1-kiri img {
+        display: none;
+    }
+
+    .p-1-kiri p {
+        margin-left: 0;
+        position: absolute;
+        display: inline-block;
+        text-align: left;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .p-1-tengah p {
+        padding: 0;
+        margin-left: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .p-posisi p {
+        margin: 0;
+        margin-top: 0;
+        line-height: 5px;
+        font-size: 15px;
+        position: absolute;
+        display: inline-block;
+    }
+
+    .p-1-kanan img {
+        margin: 0;
+        display: none;
+    }
+
+    .sekolah-1 span {
+        margin: 0;
+        position: absolute;
+        font-size: 20px;
+    }
+
+    .s-1-tengah p {
+        display: none;
+    }
+
+    .s-jurusan p {
+        margin-top: 35px;
+        font-size: 14px;
+    }
+
+    .sekolah-1 span {
+        margin: 0;
+        position: absolute;
+        font-size: 20px;
+    }
+
+    .s-2-tengah p {
+        display: none;
+    }
+
+    .s-jurusan p {
+        margin-top: 35px;
+        font-size: 14px;
+    }
+    .s-1-kanan img {
+        display: none;
+    }
+
+    .s-2-kanan img {
+        display: none;
+    }
+}
